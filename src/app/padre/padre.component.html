@@ -1,0 +1,23 @@
+<p>Contador</p>
+<a
+  href="https://youtu.be/soInCF7nbDw?si=yVlH1U80PPvMbFzf&t=9754"
+  target="_blank"
+  >video del CURSO</a
+>
+
+<h2>{{fecha | date:'short'}}</h2>
+<h3>Precios: {{ dolar | currency}}</h3>
+<h1 >{{ nombre | miPipePersonalizado}}</h1>
+<button type="button" (click)="saludar()">Saludar</button>
+<button type="button" (click)="pregunar()">Saludarhijo</button>
+<!-- <p>{{valorContador}}</p>
+
+
+
+<app-hijo 
+(incrementoDesdeHijo)="incrementar()"
+(decrementoDesdeHijo)="disminuir()"
+(mensajeDesdeHijo)="recibirMensaje($event)"></app-hijo>
+<h5>el mensaje recibido desde el hijo es : {{reciboMensaje}}</h5> -->
+
+<!-- <app-hijo [recibeHijo]="mensajePadre"></app-hijo> -->

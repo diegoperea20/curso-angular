@@ -1,0 +1,28 @@
+/* Estilos para el contenedor de los elementos */
+.container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para los párrafos */
+ /* Estilo para el primer párrafo */
+
+  
+  
+  /* Estilos para los botones */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Estilos adicionales para resaltar el botón al pasar el ratón sobre él */
+  button:hover {
+    background-color: #45a049;
+  }
+  
